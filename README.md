@@ -65,6 +65,12 @@ if you encounter this issue, do this:
 	> flutterdev@fedora:**< root-project >**$ rm -rf .dart_tool
 
 
+### Build version conflict
+
+Sometimes when you rebuild the project with `~/:$ webdev serve`, a **version.dart** file is created in the dir `<root_project>/lib/src` folder, remove it and restart project build with `~/:$ webdev serve`.
+
+
+
 A web app that uses [AngularDart](https://angulardart.xyz) and
 [AngularDart Components](https://pub.dev/ngcomponents).
 
