@@ -5,6 +5,7 @@
 To execute this project a Dart environment is required.
 
 > flutterdev@fedora:~$ flutter --version
+
     **Flutter 3.7.12** • channel unknown • unknown source
     Framework • revision 4d9e56e694 (1 anno, 7 mesi fa) • 2023-04-17 21:47:46 -0400
     Engine • revision 1a65d409c7
@@ -16,8 +17,11 @@ To execute this project a Dart environment is required.
 To execute this project go to root of your project and run this commands:
 
 > flutterdev@fedora:~$ dart pub get
+> 
 > flutterdev@fedora:~$ dart pub global activate webdev
+> 
 > flutterdev@fedora:~$ dart pub global activate ngdart_cli
+> 
 > flutterdev@fedora:~$ webdev serve
 
 
@@ -57,12 +61,8 @@ if you encounter this issue, do this:
 	        return const <TargetKind>{};
 	      }
 
-
-
-
-
 - Remove all previous build datas
-	> flutterdev@fedora:<root-project>$ rm -rf .dart_tool
+	> flutterdev@fedora:**< root-project >**$ rm -rf .dart_tool
 
 
 A web app that uses [AngularDart](https://angulardart.xyz) and
