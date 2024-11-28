@@ -69,10 +69,10 @@ if you encounter this issue, do this:
 
 Sometimes when you rebuild the project with `~/:$ webdev serve`, a **version.dart** file is created in the dir `<root_project>/lib/src` folder, remove it and restart project build with `~/:$ webdev serve`.
 
-
+## Credits
 
 A web app that uses [AngularDart](https://angulardart.xyz) and
 [AngularDart Components](https://pub.dev/ngcomponents).
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+Created from templates made available by ngdart_cli under a BSD-style
+[license](https://github.com/angulardart-community/ngdart_cli/blob/main/LICENSE).
