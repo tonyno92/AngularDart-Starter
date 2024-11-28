@@ -27,7 +27,7 @@ To execute this project go to root of your project and run this commands:
 
 ## Knowed issues
 
-### analyzer
+### analyzer-4.7.0
   
 if you encounter this issue, do this:
 - Open this file with your prefered text editor
